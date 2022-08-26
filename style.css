@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.container h1 {
+    color: teal;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.container label {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container input {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.container button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.container a {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: teal;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.container a:hover {
+    background-color: teal;
+    color: white;
+}
+
+.container button:hover, .container button:focus {
+    filter: brightness(125%);
+}
+
+.container p {
+    color: teal;    
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
